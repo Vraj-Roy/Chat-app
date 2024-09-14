@@ -5,7 +5,7 @@ const Navbar = ({ user }) => {
   const auth = getAuth();
   return (
     <div className="sticky bg-gray-100 shadow">
-      <div className="flex justify-between text-bold items-center font-semibold text-lg  h-[10vh] w-[50vw] m-auto px-4 ">
+      <div className="flex justify-between text-bold items-center font-semibold text-lg  md:h-[10vh] md:w-[50vw] m-auto px-4 ">
         <div className="text-sm">{user.email}</div>
         <div className="flex gap-x-2">
           <img className="w-8 h-8 rounded-full" src={user.photoURL} />

@@ -54,7 +54,7 @@ const Chat = ({ user }) => {
     <div>
       {/* Message list */}
       <div className="messages bg-gray-100">
-        <div className="md:w-[50vw] m-auto flex flex-col rounded p-4 pb-0 overflow-auto h-[90vh]">
+        <div className="md:w-[50vw] m-auto flex flex-col rounded p-4 pb-0 overflow-auto md:h-[90vh]">
           <div className="mx-auto w-fit md:text-3xl font-bold">
             Cool Chat App
           </div>
